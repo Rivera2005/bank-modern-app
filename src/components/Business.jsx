@@ -20,7 +20,7 @@ const FeatureCard = ({ icon, title, content, index }) => (
   </div>
 );
 
-const Buisness = () => {
+const Business = () => {
   return (
     <section id="features" className={layout.section}>
       <div className={layout.sectionInfo}>
@@ -46,4 +46,4 @@ const Buisness = () => {
   );
 };
 
-export default Buisness;
+export default Business;

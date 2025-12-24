@@ -4,7 +4,7 @@ import {
   Navbar,
   Billing,
   CardDeal,
-  Buisness,
+  Business,
   Clients,
   CTA,
   Stats,
@@ -29,7 +29,7 @@ const App = () => (
 
     <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
-        <Stats /> <Buisness /> <Billing /> <CardDeal /> <Testimonials />{" "}
+        <Stats /> <Business /> <Billing /> <CardDeal /> <Testimonials />{" "}
         <Clients /> <CTA /> <Footer />
       </div>
     </div>
