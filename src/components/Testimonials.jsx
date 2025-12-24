@@ -1,5 +1,5 @@
 import { feedback } from "../constants";
-import styles, { layout } from "../style";
+import styles from "../style";
 import FeedbackCard from "./FeedbackCard";
 
 const Testimonials = () => (
@@ -14,14 +14,14 @@ const Testimonials = () => (
         What people are <br className="sm:block hidden" /> saying about us
       </h1>
       <div className="w-full md_mt-0 mt-6">
-        <p className={`${styles.paragraph} text-left max-w-[450px]`}>
+        <p className={`${styles.paragraph} text-left max-w-112.5`}>
           Everything you need to accept card payments and grow your business
           anywhere on the planet.
         </p>
       </div>
     </div>
 
-    <div className="flex flex-wrap sm: justify-start justify-center w-full feedback-container relative z-1">
+    <div className="flex flex-wrap sm:justify-start justify-center w-full feedback-container relative z-1">
       {feedback.map((card) => (
         <FeedbackCard key={card.id} {...card}/>
       ))}
