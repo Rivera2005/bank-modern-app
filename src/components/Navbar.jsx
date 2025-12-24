@@ -7,7 +7,7 @@ const Navbar = () => {
 
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar">
-      <img src={logo} alt="hoobank" className="w-[124px] h-[32px]" />
+      <img src={logo} alt="hoobank" className="w-31 h-8" />
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
           <li
@@ -25,7 +25,7 @@ const Navbar = () => {
         <img
           src={toogle ? close : menu}
           alt="menu"
-          className="w-[28px] h-[28px] object-contain cursor-pointer"
+          className="w-7 h-7 object-contain cursor-pointer"
           onClick={() => setToogle((prev) => !prev)}
         />
 
